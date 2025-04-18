@@ -1,4 +1,5 @@
 import styles from './index.module.css'
+import Card from '../Card';
 
 export default function CardContainer({containerTitle}) {
 
@@ -6,7 +7,11 @@ export default function CardContainer({containerTitle}) {
         <div className={styles.container}>
             <h2>{containerTitle}</h2>
 
-            <div className={styles.cardList}></div>
+            <div className={styles.cardList}>
+                <Card cardTitle='Lavar a Louça'/>
+                <Card cardTitle='Lição de casa'/>
+                <Card cardTitle='Exercício'/>
+            </div>
         </div>
     );
 }

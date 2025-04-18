@@ -1,0 +1,13 @@
+.card {
+    background-color: rgb(167, 167, 167);
+    width: 90%;
+    height: 70px;
+    border-radius: 5px;
+    align-self: center;
+    /* border: 1px solid white; */
+}
+
+.card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
