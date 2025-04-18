@@ -6,6 +6,7 @@ export default function CardContainer({containerTitle}) {
         <div className={styles.container}>
             <h2>{containerTitle}</h2>
 
+            <div className={styles.cardList}></div>
         </div>
     );
 }

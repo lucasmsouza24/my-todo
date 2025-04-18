@@ -10,3 +10,9 @@
     background-color: rgb(124, 124, 124);
     cursor: pointer;
 }
+
+.cardList {
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    height: 80%;
+}
