@@ -8,9 +8,9 @@ export default function TodoPage() {
                 <h1>MyTodo</h1>
 
                 <div className={styles.contentContainer}>
-                    <CardContainer />
-                    <CardContainer />
-                    <CardContainer />
+                    <CardContainer containerTitle={"📝 To do"}/>
+                    <CardContainer containerTitle={"⏳ Doing"}/>
+                    <CardContainer containerTitle={"✅ Done"}/>
                 </div>
             </div>
         </>

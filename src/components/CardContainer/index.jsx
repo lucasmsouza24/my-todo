@@ -1,11 +1,11 @@
 import styles from './index.module.css'
 
-export default function CardContainer() {
+export default function CardContainer({containerTitle}) {
+
     return (
         <div className={styles.container}>
-            <h2>Doing</h2>
+            <h2>{containerTitle}</h2>
 
-            
         </div>
     );
 }
